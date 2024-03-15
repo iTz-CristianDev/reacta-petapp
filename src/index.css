@@ -1,0 +1,53 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-link {
+  color: #495057;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+a{
+  color: white;
+}
+
+a:hover{  
+  color: white;
+}
+
+.carousel-item img {
+  height: 700px; /* Establece la altura máxima */
+  width: auto; /* Permite que la anchura se ajuste automáticamente */
+  object-fit: cover; /* Escala la imagen para cubrir completamente el contenedor */
+}
+.glamorphims{
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  
+}
+
+.row .justify-content-center{
+  margin-top: 20px;
+}
+
+.animated-c{
+    
+  overflow: hidden;
+  transition: transform 0.3s ease;
+
+
+}
+.animated-c:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+
+
